@@ -1,0 +1,275 @@
+
+
+
+
+.hammer-up{
+  cursor: url('images/mouse/hammer-up-small.png'),auto;
+}
+
+.hammer-down{
+  cursor: url('images/mouse/hammer-down-small.png'), auto;
+ }
+
+
+.flex-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.score, .time{
+  width: 20%;
+ justify-content: space-around;
+ font-size: 1.5em
+}
+ 
+input{
+  text-align: center;
+  width: auto;
+  padding: 6px 6px 4px;
+  font-size: 1.5em;
+  background-color: rgb(195, 11, 11);
+  color: rgb(245, 178, 71);
+}
+
+
+ 
+ .row{
+  border: 1px solid black;
+  /* height:500px; */
+  width: 100%;
+  display: flex;
+} 
+
+
+.col{
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.row2, .row1{
+justify-content: space-around;
+align-items: center;
+} 
+
+
+
+
+
+
+
+
+.hide{
+  display:none;
+}
+
+
+.inDiv{
+  justify-content: center;
+  align-items: center;
+  height: 355px;
+  width: 500px;
+  background-color: white;
+ display: flex;
+}
+
+
+.backBlack{
+  background-color: black;
+}
+
+/* overlay */
+
+/* .overlay{
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+} */
+
+.glass{
+  background-image: url('images/overlay/a-glass-screen-overlay.png');
+  position: relative;
+  background-size: contain;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+ 
+}
+
+.glass-holeR {
+  background-image: url('images/overlay/a-realistic-hole-glass.png');
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+} 
+
+/* .glass-hole2 {
+  background-image: url('images/overlay/a-broken-glass-hole.png');
+ 
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+} */
+
+/* 
+ .glass-crackR {
+  background-image: url('images/overlay/a-realistic-cracked-glass.png');
+
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+}  */
+
+
+/* images */
+
+
+
+
+
+   /* IMAGES */
+
+
+.pics{
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:90%;
+  width: 90%;
+}
+
+/* ---HIT 14(3) */
+/* 1 */
+.bootsImg{
+  background-image: url('images/hit/bootstrap-2-transparent.png');
+}
+/* 2 */
+.cssImg{
+  background-image: url('images/hit/css3-logo-transparent.png');
+}
+/* 3 */
+.curlyImg{
+  background-image: url('images/hit/curly-braces.png');
+}
+
+/* 4 */
+.gitImg{
+  background-image: url('images/hit/github-octacat.png');
+}
+
+/* 5 */
+.hTagImg{
+  background-image: url('images/hit/html-tag.png');
+}
+/* 6 */
+.htmlImg{
+  background-image: url('images/hit/html5-transparent.png');
+}
+/* 7 */
+.brokenImg{
+  background-image: url('images/hit/image-broken.png');
+}
+/* 8 */
+.jasmineImg{
+  background-image: url('images/hit/jasmine-logo-transparent.png');
+}
+/* 9 */
+.jsImg{
+  background-image: url('images/hit/javascript-icon.png');
+}
+/* 10 */
+.canvasImg{
+  background-image: url('images/hit/logo-canvas.png');
+}
+/* 11 */
+.wheelImg{
+  background-image: url('images/hit/macWheelDeath.gif');
+}
+/* 12 */
+.termImg{
+  background-image: url('images/hit/terminal.png');
+}
+
+/* ----- see which better--- */
+
+/* 13 */
+.collBImg{
+  background-image: url('images/hit/canvasCollB.png');
+}
+/* ~~or ~~*/
+
+/* 14 */
+.collAllImg{
+  background-image: url('images/hit/canvasCollAll.png');
+}
+
+
+
+
+
+/* ----NO-HIT  9 ------*/
+/* 1 */
+.hiredImg{
+  background-image: url('images/nohit/you-hired.png');
+}
+/* 2 */
+.moneyImg{
+  background-image: url('images/nohit/computer-money.png');
+}
+/* 3 */
+.kittyImg{
+  background-image: url('images/nohit/cute-kittiepng.png');
+}
+
+/* 4 */
+.puppyImg{
+  background-image: url('images/nohit/cute-puppy.png');
+}
+
+/* 5 */
+.ofMonthImg{
+  background-image: url('images/nohit/employee-of-the-month.png');
+}
+
+/* 6 */
+.gradImg{
+  background-image: url('images/nohit/graduation-day.png'); 
+}
+
+/* 7 */
+.hiringImg{
+  background-image: url('images/nohit/hire-recruitment.png');
+}
+
+/* 8 */
+.beerImg{
+  background-image: url('images/nohit/ih-beer-mug.png');
+}
+
+/* 9 */
+.kegImg{
+  background-image: url('images/nohit/ih-kegerator.png');
+}
+
+/* -------------- */
+
+
+
+
