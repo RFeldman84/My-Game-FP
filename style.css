@@ -1,4 +1,16 @@
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(67, 151, 225, 0.833);
+}
+
+#game-board{
+  width: 2500px
+  
+}
+
 
 
 
@@ -29,6 +41,7 @@
 }
  
 input{
+  border: 3px solid rgb(245, 178, 71);
   text-align: center;
   width: auto;
   padding: 6px 6px 4px;
@@ -40,21 +53,14 @@ input{
 
  
  .row{
-  border: 1px solid black;
+
   /* height:500px; */
   width: 100%;
   display: flex;
 } 
 
 
-.col{
-  border: 1px solid black;
-  width: 600px;
-  height: 600px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 
 
 .row2, .row1{
@@ -98,22 +104,7 @@ align-items: center;
 
 } */
 
-.glass{
-  background-image: url('images/overlay/a-glass-screen-overlay.png');
-  position: relative;
-  background-size: contain;
-  background-position: 0 0;
-  background-repeat: no-repeat;
- 
-}
 
-.glass-holeR {
-  background-image: url('images/overlay/a-realistic-hole-glass.png');
-  position: relative;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: no-repeat;
-} 
 
 /* .glass-hole2 {
   background-image: url('images/overlay/a-broken-glass-hole.png');
@@ -269,6 +260,141 @@ align-items: center;
 }
 
 /* -------------- */
+
+
+#subLogo{
+ position: absolute;
+ top: 100px; 
+}
+
+.board {
+  position: absolute;
+  width: 1300px;
+  left: 8px;
+  top: 40px;
+}
+
+/* computers */
+
+.col{
+  
+  width: 900px;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.glass{
+  background-image: url('images/overlay/a-glass-screen-overlay.png');
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+ 
+}
+
+.glass-holeR {
+  background-image: url('images/overlay/a-realistic-hole-glass.png');
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+} 
+
+/* 1 */
+#comp1{
+  background-image: url('images/computers/front-screen-macpro.png') 
+ 
+}
+
+.screen1{
+  position: relative;
+  top: -40px;
+  width: 686px;
+  height: 438px;
+}
+
+
+
+ /* 3  */
+#comp2{
+  background-image: url('images/computers/front-screen-hp.png');
+  background-size: 730px;
+}
+
+.screen2{
+  position: relative;
+  top: -103px;
+  width: 515px;
+  height: 295px;
+}
+
+
+/* 3 */
+#comp3{
+  background-image: url('images/computers/front-screen-acer.png');
+  background-size: 830px;
+}
+  
+.screen3{
+  position: relative;
+  top: -54px;
+  width: 589px;
+  height: 330px;
+  right: 5.5px;
+}
+
+ /* 4  */
+ #comp4{    
+  background-image: url('images/computers/front-screen-asus.png');
+  background-size: 900px;
+  height: 700px;
+}
+
+.screen4{
+  position: relative;
+  top: -105px;
+  width: 787px;
+  height: 450px;
+}
+
+
+  /* 5  */
+  #comp5{
+    background-image: url('images/computers/front-screen-windows.png');
+    background-position: center -55px;
+    background-size: 850px;
+    height: 700px;
+  } 
+  
+  .screen5{
+    position: relative;
+    top: -54px;
+    width: 754px;
+    height: 475px;
+  }
+
+/* 6 */
+#comp6{
+  background-image: url('images/computers/front-screen-mac.png');
+  background-size: 840px;
+  height: 700px;
+}
+  
+.screen6{
+  position: relative;
+  top: -84px;
+  width: 774px;
+  height: 435px;
+}
+
+
+
 
 
 
