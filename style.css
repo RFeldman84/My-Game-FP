@@ -225,9 +225,11 @@ align-items: center;
 
 #subLogo{
  position: absolute;
- top: 55px; 
+ top: 60px; 
  height: 80px;
-
+ background-color: rgba(117, 185, 244, 0.545);
+ border-radius: 70%;
+ padding: 10px
 }
 
 .board {
@@ -366,7 +368,7 @@ align-items: center;
   padding: 0;
   position: absolute;
   width: 2860px;
-  height: 1560px;
+  height: 1562px;
   background: rgb(255, 255, 255);
   z-index: 1;
 }
@@ -392,12 +394,13 @@ align-items: center;
 .laps{
   
   height:auto;
-  width: 450px;
+  width: 540px;
 }
 
 .desks{
-  height:475px;
-  width: auto;
+  height:550px;
+  width: auto ;
+  margin-top: -15px;
 }
 
 .logoIntro{
@@ -405,17 +408,18 @@ align-items: center;
  
 }
 .sublogoIntro{
-  margin-top: -25px;
+  margin-top: -30px;
   height: 75px;
   background-color: rgb(195, 11, 11);;
   border-radius: 50%;
 }
 
 .introOL{
+  margin-top: -10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-   line-height: 1.75;
+   line-height: 1.75em;
   font-size: 1.5em;
 }
 
@@ -424,7 +428,7 @@ align-items: center;
   color: rgb(195, 11, 11);
   border: 0.5px solid red ;
   background-color: rgb(245, 178, 71);
-  font-size: 1.2em;
+  font-size: 1.1em;
   padding: 2px 5px;
  
 }
@@ -432,6 +436,7 @@ align-items: center;
 .emojiIntro{
   font-size: 1.4em;
 }
+ 
 
 .hide{
   display: none;
