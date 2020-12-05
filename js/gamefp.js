@@ -5,7 +5,14 @@ const cl = (...p)=> console.log(...p)
 cl('gamefp.js connected')
 
 
-
+window.addEventListener('load', ()=>{
+ const infoX = document.querySelector('#info')
+ infoX.classList.toggle('hide', false)
+  const xButtonInfo = document.querySelector('.xButton')
+  xButtonInfo.addEventListener('click', ()=>{
+    infoX.classList.toggle('hide')
+  })
+})
 
 ///////////////////~~~~~~WORKING STUFF~~~~~~~~~///////////////////////////////
 
@@ -519,7 +526,8 @@ function timer(){
   setTimeout(() => {
   clearInterval(start) 
   counter = 0
-  theTime.innerHTML = counter   
+  theTime.innerHTML = counter 
+  theScore.innerHTML.style.color = "red"  
   },121000)
 }
 
