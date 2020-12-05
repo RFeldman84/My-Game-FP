@@ -44,7 +44,7 @@ body {
  font-size: 1.75em
 }
  
-input{
+.startButton{
   border: 3px solid rgb(245, 178, 71);
   text-align: center;
   width: auto;
@@ -72,9 +72,7 @@ align-items: center;
 
 
 
-.hide{
-  display:none;
-}
+
 
 
 .inDiv{
@@ -229,6 +227,7 @@ align-items: center;
  position: absolute;
  top: 55px; 
  height: 80px;
+
 }
 
 .board {
@@ -363,11 +362,13 @@ align-items: center;
 /* INFORMATION PAGE */
 
 #info{
+  margin: 0;
+  padding: 0;
   position: absolute;
-  width: 2800px;
-  height: 1515px;
-  background: rgba(255, 255, 255, 0.95);
-  z-index: 6;
+  width: 2860px;
+  height: 1560px;
+  background: rgb(255, 255, 255);
+  z-index: 1;
 }
 
 
@@ -382,15 +383,56 @@ align-items: center;
   font-size: 4em;
 }
 
-.laps{
+.flexIntro{
+  display: flex;
   align-items: center;
-  justify-content: center;
-  height:500px;
-  width: 700px;
+  justify-content: space-around;
+}
+
+.laps{
+  
+  height:auto;
+  width: 450px;
 }
 
 .desks{
-  height:400px;
+  height:475px;
   width: auto;
 }
 
+.logoIntro{
+  margin-top: -75px
+ 
+}
+.sublogoIntro{
+  margin-top: -25px;
+  height: 75px;
+  background-color: rgb(195, 11, 11);;
+  border-radius: 50%;
+}
+
+.introOL{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   line-height: 1.75;
+  font-size: 1.5em;
+}
+
+
+.introSpan{
+  color: rgb(195, 11, 11);
+  border: 0.5px solid red ;
+  background-color: rgb(245, 178, 71);
+  font-size: 1.2em;
+  padding: 2px 5px;
+ 
+}
+
+.emojiIntro{
+  font-size: 1.4em;
+}
+
+.hide{
+  display: none;
+}

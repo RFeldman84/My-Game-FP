@@ -507,7 +507,7 @@ let arrImg6 = [cssImg6, jasmineImg6, jsImg6, curlyImg6, gitImg6, hTagImg6, htmlI
  // timer///
 let counter = 120
 const theTime = document.querySelector('.timeSpan')
-const timerButt = document.querySelector('.start')
+const timerButt = document.querySelector('.startButton')
 const removeButt = ()=> timerButt.remove()
 
 //// timer  function ////
