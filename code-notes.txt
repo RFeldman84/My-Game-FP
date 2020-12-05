@@ -1,3 +1,5 @@
+javascript
+
 const cl = (...p)=> console.log(...p)
 
 
@@ -973,51 +975,615 @@ s1.addEventListener('click', ()=>{
 
 
 
+-------------------
+CSS
+------------
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(67, 151, 225, 0.833);
+}
+
+#game-board{
+  width: 2500px
+  
+}
 
 
 
+.hammer-up{
+  cursor: url('images/mouse/hammer-up-small.png'),auto;
+}
+
+.hammer-down{
+  cursor: url('images/mouse/hammer-down-small.png'), auto;
+ }
 
 
+.flex-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
 
+.flex{
+  display: flex;
+}
 
+.score{
+  padding-left: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.score, .time{
+  width: 25%;
+  
+ justify-content: space-around;
+ font-size: 1.75em
+}
+ 
+.startButton{
+  border: 3px solid rgb(245, 178, 71);
+  text-align: center;
+  width: auto;
+  padding: 6px 6px 4px;
+  font-size: 1.5em;
+  background-color: rgb(195, 11, 11);
+  color: rgb(245, 178, 71);
+}
 
 
  
+ .row{
+  width: 100%;
+  display: flex;
+} 
 
+
+
+
+
+.row2, .row1{
+justify-content: space-around;
+align-items: center;
+} 
+
+
+
+
+
+
+.inDiv{
+  justify-content: center;
+  align-items: center;
+  height: 355px;
+  width: 500px;
+  background-color: rgb(227, 218, 218);
+ display: flex;
+
+}
+
+
+.backBlack{
+  background-color: black;
+}
+
+
+   /* IMAGES */
+
+
+.pics{
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:90%;
+  width: 90%;
+ 
+}
+
+/* ---HIT 14(3) */
+/* 1 */
+.bootsImg{
+  background-image: url('images/hit/bootstrap-2-transparent.png');
+}
+/* 2 */
+.cssImg{
+  background-image: url('images/hit/css3-logo-transparent.png');
+}
+/* 3 */
+.curlyImg{
+  background-image: url('images/hit/curly-braces.png');
+}
+
+/* 4 */
+.gitImg{
+  background-image: url('images/hit/github-octacat.png');
+}
+
+/* 5 */
+.hTagImg{
+  background-image: url('images/hit/html-tag.png');
+}
+/* 6 */
+.htmlImg{
+  background-image: url('images/hit/html5-transparent.png');
+}
+/* 7 */
+.brokenImg{
+  background-image: url('images/hit/image-broken.png');
+}
+/* 8 */
+.jasmineImg{
+  background-image: url('images/hit/jasmine-logo-transparent.png');
+}
+/* 9 */
+.jsImg{
+  background-image: url('images/hit/javascript-icon.png');
+}
+/* 10 */
+.canvasImg{
+  background-image: url('images/hit/logo-canvas.png');
+}
+/* 11 */
+.wheelImg{
+  background-image: url('images/hit/macWheelDeath.gif');
+}
+/* 12 */
+.termImg{
+  background-image: url('images/hit/terminal.png');
+}
+
+/* ----- see which better--- */
+
+/* 13 */
+.collBImg{
+  background-image: url('images/hit/canvasCollB.png');
+}
+/* ~~or ~~*/
+
+/* 14 */
+.collAllImg{
+  background-image: url('images/hit/canvasCollAll.png');
+}
+
+
+
+
+
+/* ----NO-HIT  9 ------*/
+/* 1 */
+.hiredImg{
+  background-image: url('images/nohit/you-hired.png');
+}
+/* 2 */
+.moneyImg{
+  background-image: url('images/nohit/computer-money.png');
+}
+/* 3 */
+.kittyImg{
+  background-image: url('images/nohit/cute-kittiepng.png');
+}
+
+/* 4 */
+.puppyImg{
+  background-image: url('images/nohit/cute-puppy.png');
+}
+
+/* 5 */
+.ofMonthImg{
+  background-image: url('images/nohit/employee-of-the-month.png');
+}
+
+/* 6 */
+.gradImg{
+  background-image: url('images/nohit/graduation-day.png'); 
+}
+
+/* 7 */
+.hiringImg{
+  background-image: url('images/nohit/hire-recruitment.png');
+}
+
+/* 8 */
+.beerImg{
+  background-image: url('images/nohit/ih-beer-mug.png');
+}
+
+/* 9 */
+.kegImg{
+  background-image: url('images/nohit/ih-kegerator.png');
+ 
+}
+
+/* -------------- */
+#logo{
+  height: 200px;
+}
+
+#subLogo{
+ position: absolute;
+ top: 60px; 
+ height: 80px;
+ background-color: rgba(117, 185, 244, 0.545);
+ border-radius: 70%;
+ padding: 10px
+}
+
+.board {
+  position: absolute;
+  width: 1200px;
+  left: 200px;
+  top: 100px;
+}
+
+/* computers */
+
+.col{
+  
+  width: 900px;
+  height: 555px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.glass{
+  background-image: url('images/overlay/a-glass-screen-overlay.png');
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  
+ 
+}
+
+.glass-holeR {
+  background-image: url('images/overlay/a-realistic-hole-glass.png');
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+} 
+
+/* 1 */
+#comp1{
+  background-image: url('images/computers/front-screen-macpro.png') 
+ 
+}
+
+.screen1{
+  position: relative;
+  top: -40px;
+  width: 686px;
+  height: 438px;
+}
+
+
+
+ /* 3  */
+#comp2{
+  background-image: url('images/computers/front-screen-hp.png');
+  background-size: 730px;
+}
+
+.screen2{
+  position: relative;
+  top: -103px;
+  width: 515px;
+  height: 295px;
+}
+
+
+/* 3 */
+#comp3{
+  background-image: url('images/computers/front-screen-acer.png');
+  background-size: 830px;
+}
+  
+.screen3{
+  position: relative;
+  top: -54px;
+  width: 589px;
+  height: 330px;
+  right: 5.5px;
+}
+
+ /* 4  */
+ #comp4{    
+  background-image: url('images/computers/front-screen-asus.png');
+  background-size: 900px;
+  height: 700px;
+}
+
+.screen4{
+  position: relative;
+  top: -105px;
+  width: 787px;
+  height: 450px;
+}
+
+
+  /* 5  */
+  #comp5{
+    background-image: url('images/computers/front-screen-windows.png');
+    background-position: center -55px;
+    background-size: 850px;
+    height: 700px;
+  } 
+  
+  .screen5{
+    position: relative;
+    top: -54px;
+    width: 754px;
+    height: 475px;
+  }
+
+/* 6 */
+#comp6{
+  background-image: url('images/computers/front-screen-mac.png');
+  background-size: 840px;
+  height: 700px;
+}
+  
+.screen6{
+  position: relative;
+  top: -84px;
+  width: 774px;
+  height: 435px;
+}
+
+
+
+/* INFORMATION PAGE */
+
+#info{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 2860px;
+  height: 1562px;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+
+.xButton{
+  border: 3px solid rgb(245, 178, 71);
+  text-align: center;
+  width: auto;
+  padding: 6px 6px 4px;
+  font-size: 1.5em;
+  background-color: rgb(195, 11, 11);
+  color: rgb(245, 178, 71);
+  font-size: 4em;
+}
+
+.flexIntro{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.laps{
+  
+  height:auto;
+  width: 540px;
+}
+
+.desks{
+  height:550px;
+  width: auto ;
+  margin-top: -15px;
+}
+
+.logoIntro{
+  margin-top: -75px
+ 
+}
+.sublogoIntro{
+  margin-top: -30px;
+  height: 75px;
+  background-color: rgb(195, 11, 11);;
+  border-radius: 50%;
+}
+
+.introOL{
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   line-height: 1.75em;
+  font-size: 1.5em;
+}
+
+
+.introSpan{
+  color: rgb(195, 11, 11);
+  border: 0.5px solid red ;
+  background-color: rgb(245, 178, 71);
+  font-size: 1.1em;
+  padding: 2px 5px;
+ 
+}
+
+.emojiIntro{
+  font-size: 1.4em;
+}
+ 
+
+.hide{
+  display: none;
+}
+
+
+
+--------------
+HTML
+-------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CODE RAGE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<!-- INTRO -->
+<div id="info" class="hide">
+<input class="xButton"  type="button" value="X">
+<center>
+  <img class="logoIntro" src="https://fontmeme.com/permalink/201205/74515692c84a4dadd14f55012efe1c16.png" alt="road-rage-font" border="0"></center> 
+
+<center>
+  <img class="sublogoIntro"  src="https://fontmeme.com/permalink/201205/465fd9b4fd6bbabd3053a62a645e917c.png" alt="road-rage-font" border="0"></center>
+  
+ <center><h1><u>INSTRUCTIONS:</u></h1></center>
+
+ <ol class="introOL">
+   <li>CODE UNTIL HIGHLY FRUSTRATED WITH "BEGINNER"/ FRONT-END WEB-DEV</li>
+   <li> <span class="emojiIntro" >😡 </span> GET THAT FEELING YOU WANT TO SMASH & DESTROY YOUR EXPENSIVE COMPUTER <span class="emojiIntro" >🤬</span>   </li>
+   <li> SLOWLY WALK AWAY... BREATH... COME TO THIS GAME... NOT YOUR CODE...</li>
+   <li>TAKE A <b>BREAK!</b> ...GIVE YOURSELF A <b>BREAK!</b>...DON'T <b>BREAK!</b>  YOUR COMPUTER!... <b>BREAK!</b> OURS!!!!</li>
+</ol>
+
+<center><h2> YOU HAVE 2 MINUTES TO PULVERIZE THESE SUCKERS! AS THE SCREENS DISPLAYS MOVE FASTER & FASTER. </h2> 
+  <h2>WATCH THE SCREENS & LET YOUR <span class="introSpan">CodeRAGE</span> GUIDE YOU TO GAIN POINTS & CATHARSIS. 
+ ... ALSO! WHEN TO HOLD BACK OR LOSE POINTS & FOCUS OF YOUR END GAME IN WEB-DEV.</h2>
+
+</center>
+
+
+<div class="flexIntro">
+<img class="back1 laps macbook" src="images/computers/back-lap-macpro.png" alt="back mac book pro laptop">
+<img class="back2 laps" src="images/computers/back-lap-hp.png" alt="back hp laptop">
+<img class="back3 laps" src="images/computers/back-lap-acer.png" alt="back acer laptop">
+</div>
+<br>
+<br>
+<div class="flexIntro">
+<img class="back4 desks" src="images/computers/back-desk-asus.png" alt=" back asus desktop">
+<img class="back5 desks" src="images/computers/back-desk-windowsW.png" alt="back windows desktop">
+<img class="back6 desks" src="images/computers/back-desk-mac.png" alt="back mac desktop">
+</div>
+
+
+<!-- intro end div -->
+</div>
+
+<!-- INTRO END -->
+
+<!-- GAME -->
+
+
+  <audio id="break-glass" src="smash-glass.mov"></audio>
+
+ <center>
+  <img id="logo" src="https://fontmeme.com/permalink/201204/74515692c84a4dadd14f55012efe1c16.png" alt="road-rage-font" border="0">
+  <img id="subLogo" src="https://fontmeme.com/permalink/201205/465fd9b4fd6bbabd3053a62a645e917c.png"  alt="road-rage-font" border="0">
+ </center>
+ 
+
+<div class="flex-container board">
+
+  <div class="score flex">
+    <h1 id="score" > Score: <span class="scoreSpan">0</span></h1></span>
+  </div>
+<!-- timer(); -->
+  <input class="startButton"  type="button"  onclick="removeButt()" value="START GAME">
+  <div class="time flex">
+    <h1 id="time"> Time: <span class="timeSpan"></span></h1></span>
+    </div>
+
+  </div>
+  <br>
+  <br>
+  <br>
+  
+ 
+
+    <div id="game-board" class="hammer-up" >
+      
+
+
+
+      <div class = "row row1">
+
+            <div id="comp1" class="col col1">
+              <div class="inDiv s1  screen1   glass">
+
+                
+              </div>
+            </div>
+
+            <div id="comp2" class="col col2">
+              <div class="inDiv s2 screen2  glass " >
+                
+              </div>
+            </div>
+
+            <div id="comp3" class="col col3">
+              <div class="inDiv  s3 screen3   glass"></div>
+          </div>
+
+        </div>
+        
+        <div class = "row row2">
+
+            <div  id="comp4"  class="col col2-1">
+              <div class="inDiv  s4 screen4  glass "></div>
+            </div>
+
+            <div id="comp5" class="col col2-2">
+              <div class="inDiv s5 screen5  glass "></div>
+            </div>
+
+            <div id="comp6" class="col col2-3">
+              <div class="inDiv s6 screen6 glass "></div>
+            </div>
+
+        </div>
+        
+        
+       
+        
+        
+    </div>
+    
+
+ 
+
+ 
+
+  
+ 
+  
+
+   
+
+
+
+    
+
+
+
+
+<script src="js/gamefp.js" ></script>
+ <!-- <script src="js/test1.js"></script> -->
+
+ 
+  </body>
+</html>
+
+----------------
