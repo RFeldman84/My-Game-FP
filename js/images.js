@@ -487,23 +487,23 @@ kegImg6.classList.add('kegImg', 'pics', 'no-hit')
 // /// ARRAY OF IMAGES each screen////
 /// arrays///
 //collAllImg1
-let arrImg1 = [collAllImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, wheelImg1, termImg1, hiredImg1, moneyImg1, kittyImg1, puppyImg1, ofMonthImg1, gradImg1, hiringImg1, beerImg1, kegImg1] 
-let arrImg2 = [puppyImg2, ofMonthImg2, gradImg2, collAllImg2, bootsImg2, cssImg2,  htmlImg2, brokenImg2, jasmineImg2, jsImg2, wheelImg2, termImg2, hiredImg2, moneyImg2, kittyImg2,  hiringImg2, beerImg2, kegImg2, curlyImg2, gitImg2, hTagImg2,] 
-let arrImg3 = [gradImg3, hiringImg3, beerImg3, kegImg3, collAllImg3, bootsImg3, cssImg3, jsImg3, wheelImg3, termImg3, curlyImg3, gitImg3, hTagImg3, htmlImg3, brokenImg3, jasmineImg3,  hiredImg3, moneyImg3, kittyImg3, puppyImg3, ofMonthImg3, ] 
-let arrImg4 = [hiredImg4, moneyImg4, kittyImg4,curlyImg4, gitImg4, hTagImg4, htmlImg4, brokenImg4, jasmineImg4, jsImg4, wheelImg4, termImg4,  puppyImg4, ofMonthImg4, gradImg4, hiringImg4, beerImg4, kegImg4,collAllImg4, bootsImg4, cssImg4] 
-let arrImg5 = [collAllImg5, bootsImg5, cssImg5, curlyImg5,  jasmineImg5, jsImg5,  moneyImg5, kittyImg5, gitImg5, hTagImg5, htmlImg5, brokenImg5, puppyImg5, ofMonthImg5, gradImg5, hiringImg5, beerImg5, kegImg5,wheelImg5, termImg5, hiredImg5] 
-let arrImg6 = [cssImg6, jasmineImg6, jsImg6, curlyImg6, gitImg6, hTagImg6, htmlImg6, brokenImg6,  wheelImg6, termImg6, hiredImg6, puppyImg6, ofMonthImg6, gradImg6, hiringImg6, beerImg6, kegImg6, collAllImg6, bootsImg6, moneyImg6, kittyImg6,] 
+// let arrImg1 = [collAllImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, wheelImg1, termImg1, hiredImg1, moneyImg1, kittyImg1, puppyImg1, ofMonthImg1, gradImg1, hiringImg1, beerImg1, kegImg1] 
+// let arrImg2 = [puppyImg2, ofMonthImg2, gradImg2, collAllImg2, bootsImg2, cssImg2,  htmlImg2, brokenImg2, jasmineImg2, jsImg2, wheelImg2, termImg2, hiredImg2, moneyImg2, kittyImg2,  hiringImg2, beerImg2, kegImg2, curlyImg2, gitImg2, hTagImg2,] 
+// let arrImg3 = [gradImg3, hiringImg3, beerImg3, kegImg3, collAllImg3, bootsImg3, cssImg3, jsImg3, wheelImg3, termImg3, curlyImg3, gitImg3, hTagImg3, htmlImg3, brokenImg3, jasmineImg3,  hiredImg3, moneyImg3, kittyImg3, puppyImg3, ofMonthImg3, ] 
+// let arrImg4 = [hiredImg4, moneyImg4, kittyImg4,curlyImg4, gitImg4, hTagImg4, htmlImg4, brokenImg4, jasmineImg4, jsImg4, wheelImg4, termImg4,  puppyImg4, ofMonthImg4, gradImg4, hiringImg4, beerImg4, kegImg4,collAllImg4, bootsImg4, cssImg4] 
+// let arrImg5 = [collAllImg5, bootsImg5, cssImg5, curlyImg5,  jasmineImg5, jsImg5,  moneyImg5, kittyImg5, gitImg5, hTagImg5, htmlImg5, brokenImg5, puppyImg5, ofMonthImg5, gradImg5, hiringImg5, beerImg5, kegImg5,wheelImg5, termImg5, hiredImg5] 
+// let arrImg6 = [cssImg6, jasmineImg6, jsImg6, curlyImg6, gitImg6, hTagImg6, htmlImg6, brokenImg6,  wheelImg6, termImg6, hiredImg6, puppyImg6, ofMonthImg6, gradImg6, hiringImg6, beerImg6, kegImg6, collAllImg6, bootsImg6, moneyImg6, kittyImg6,] 
 //hiredImg1, moneyImg1, kittyImg1, puppyImg1, ofMonthImg1, gradImg1, hiringImg1, beerImg1, kegImg1
 //collAllImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, wheelImg1, termImg1
 
 
 //ALL  collBImg1
-let arrImg1 = [collBImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, wheelImg1, termImg1, hiredImg1, moneyImg1, kittyImg1, puppyImg1, ofMonthImg1, gradImg1, hiringImg1, beerImg1, kegImg1] 
-let arrImg2 = [collBImg2, bootsImg2, cssImg2, curlyImg2, gitImg2, hTagImg2, htmlImg2, brokenImg2, jasmineImg2, jsImg2, wheelImg2, termImg2, hiredImg2, moneyImg2, kittyImg2, puppyImg2, ofMonthImg2, gradImg2, hiringImg2, beerImg2, kegImg2] 
-let arrImg3 = [collBImg3, bootsImg3, cssImg3, curlyImg3, gitImg3, hTagImg3, htmlImg3, brokenImg3, jasmineImg3, jsImg3, wheelImg3, termImg3, hiredImg3, moneyImg3, kittyImg3, puppyImg3, ofMonthImg3, gradImg3, hiringImg3, beerImg3, kegImg3] 
-let arrImg4 = [collBImg4, bootsImg4, cssImg4, curlyImg4, gitImg4, hTagImg4, htmlImg4, brokenImg4, jasmineImg4, jsImg4, wheelImg4, termImg4, hiredImg4, moneyImg4, kittyImg4, puppyImg4, ofMonthImg4, gradImg4, hiringImg4, beerImg4, kegImg4] 
-let arrImg5 = [collBImg5, bootsImg5, cssImg5, curlyImg5, gitImg5, hTagImg5, htmlImg5, brokenImg5, jasmineImg5, jsImg5, wheelImg5, termImg5, hiredImg5, moneyImg5, kittyImg5, puppyImg5, ofMonthImg5, gradImg5, hiringImg5, beerImg5, kegImg5] 
-let arrImg6 = [collBImg6, bootsImg6, cssImg6, curlyImg6, gitImg6, hTagImg6, htmlImg6, brokenImg6, jasmineImg6, jsImg6, wheelImg6, termImg6, hiredImg6, moneyImg6, kittyImg6, puppyImg6, ofMonthImg6, gradImg6, hiringImg6, beerImg6, kegImg6] 
+// let arrImg1 = [collBImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, wheelImg1, termImg1, hiredImg1, moneyImg1, kittyImg1, puppyImg1, ofMonthImg1, gradImg1, hiringImg1, beerImg1, kegImg1] 
+// let arrImg2 = [collBImg2, bootsImg2, cssImg2, curlyImg2, gitImg2, hTagImg2, htmlImg2, brokenImg2, jasmineImg2, jsImg2, wheelImg2, termImg2, hiredImg2, moneyImg2, kittyImg2, puppyImg2, ofMonthImg2, gradImg2, hiringImg2, beerImg2, kegImg2] 
+// let arrImg3 = [collBImg3, bootsImg3, cssImg3, curlyImg3, gitImg3, hTagImg3, htmlImg3, brokenImg3, jasmineImg3, jsImg3, wheelImg3, termImg3, hiredImg3, moneyImg3, kittyImg3, puppyImg3, ofMonthImg3, gradImg3, hiringImg3, beerImg3, kegImg3] 
+// let arrImg4 = [collBImg4, bootsImg4, cssImg4, curlyImg4, gitImg4, hTagImg4, htmlImg4, brokenImg4, jasmineImg4, jsImg4, wheelImg4, termImg4, hiredImg4, moneyImg4, kittyImg4, puppyImg4, ofMonthImg4, gradImg4, hiringImg4, beerImg4, kegImg4] 
+// let arrImg5 = [collBImg5, bootsImg5, cssImg5, curlyImg5, gitImg5, hTagImg5, htmlImg5, brokenImg5, jasmineImg5, jsImg5, wheelImg5, termImg5, hiredImg5, moneyImg5, kittyImg5, puppyImg5, ofMonthImg5, gradImg5, hiringImg5, beerImg5, kegImg5] 
+// let arrImg6 = [collBImg6, bootsImg6, cssImg6, curlyImg6, gitImg6, hTagImg6, htmlImg6, brokenImg6, jasmineImg6, jsImg6, wheelImg6, termImg6, hiredImg6, moneyImg6, kittyImg6, puppyImg6, ofMonthImg6, gradImg6, hiringImg6, beerImg6, kegImg6] 
 
 
 
@@ -554,6 +554,7 @@ let arrImg6 = [collBImg6, bootsImg6, cssImg6, curlyImg6, gitImg6, hTagImg6, html
 // let arrImg1 = [collBImg1, collAllImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, canvasImg1, wheelImg1, termImg1] 
 
 // let arrImg1 = [collBImg1, collAllImg1, bootsImg1, cssImg1, curlyImg1, gitImg1, hTagImg1, htmlImg1, brokenImg1, jasmineImg1, jsImg1, canvasImg1, wheelImg1, termImg1] 
+
 
 
 

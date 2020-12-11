@@ -1015,9 +1015,5 @@ s1.addEventListener('click', ()=>{
 
 
 
-
-
-
-
  
 
