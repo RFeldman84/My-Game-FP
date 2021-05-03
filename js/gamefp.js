@@ -2,11 +2,9 @@
 /////////////////////
 const cl = (...p)=> console.log(...p)
 
-
-
 cl('gamefp.js connected')
 
-
+///// INSTRUCTIONS PAGE ////
 window.addEventListener('load', ()=>{
  const infoX = document.querySelector('#info')
  infoX.classList.toggle('hide', false)
@@ -23,7 +21,7 @@ let score = 0
 const theScore = document.querySelector('.scoreSpan')
 
 
-////////  create items 
+//////// SCREENS /////
 
 const s1 = document.querySelector('.s1')
 const s2 = document.querySelector('.s2')

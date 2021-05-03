@@ -1,5 +1,7 @@
+///COMPUTER IMAGES PAGE////
 
         ////////  IMAGES START///////
+
   /// HIT ////
 //// 1 bootsImg
 const bootsImg1 = document.createElement('div')
@@ -402,7 +404,6 @@ hiringImg5.classList.add('hiringImg', 'pics', 'no-hit')
 
 const hiringImg6 = document.createElement('div')
 hiringImg6.classList.add('hiringImg', 'pics', 'no-hit')
-
 
 //  8 beerImg
 
