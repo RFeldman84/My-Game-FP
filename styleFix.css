@@ -1,0 +1,542 @@
+/* IN PROGRESS accidentally styled while browser at 50% so everything double
+this is everything cut in half... or see styleZoomFix.css 
+for zoom 0.5 with media queries
+ */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(67, 151, 225, 0.833);
+}
+
+#game-board{
+  /* width: 2500px */
+  width: 1250px
+  
+}
+
+
+/* depreciated works only on some */
+.hammer-up{
+  cursor: url('images/mouse/hammer-up-small.png'),auto;
+}
+
+.hammer-down{
+  cursor: url('images/mouse/hammer-down-small.png'), auto;
+ }
+
+ 
+/* 32 for all browsers*//*
+.hammer-up{
+  cursor: url('images/mouse/hammer-up-32-32.png'),auto;
+}
+
+
+.hammer-down{
+  cursor: url('images/mouse/hammer-down-32-32.png'), auto;
+ } */
+
+
+.flex-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.flex{
+  display: flex;
+}
+
+.score{
+  /* padding-left: 20px; */
+  padding-left: 10px;
+}
+
+.score, .time{
+  width: 25%;
+  
+ justify-content: space-around;
+ /* font-size: 1.75em; */
+ font-size: 0.825em
+}
+ 
+.startButton{
+  border: 3px solid rgb(245, 178, 71);
+  text-align: center;
+  width: auto;
+  /* padding: 6px 6px 4px;
+  font-size: 1.5em; */
+  padding: 3px 3px 2px;
+  font-size: 0.75em;
+  background-color: rgb(195, 11, 11);
+  color: rgb(245, 178, 71);
+}
+
+
+ 
+ .row{
+  width: 100%;
+  display: flex;
+} 
+
+
+
+
+
+.row2, .row1{
+justify-content: space-around;
+align-items: center;
+} 
+
+
+
+
+
+
+.inDiv{
+  justify-content: center;
+  align-items: center;
+  /* height: 355px;
+  width: 500px; */
+  height: 177.5px;
+  width: 250px;
+  background-color: rgb(227, 218, 218);
+ display: flex;
+
+}
+
+
+.backBlack{
+  background-color: black;
+}
+
+
+  
+/* -------------- */
+#logo{
+  /* height: 200px; */
+  height: 100px;
+}
+
+#subLogo{
+ position: absolute;
+ /* top: 60px; 
+ height: 80px; */
+ top: 30px; 
+ height: 40px;
+ background-color: rgba(117, 185, 244, 0.545);
+ border-radius: 70%;
+ /* padding: 10px; */
+ padding: 5px
+}
+
+.board {
+  position: absolute;
+  width: 1200px;
+  left: 200px;
+  top: 100px;
+  /* width: 600px;
+  left: 100px;
+  top: 50px; */
+}
+
+/* computers */
+
+.col{
+  
+  /* width: 900px;
+  height: 555px; */
+  width: 450px;
+  height: 277.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.glass{
+  background-image: url('images/overlay/a-glass-screen-overlay.png');
+  position: relative;
+  background-size: cover;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  
+ 
+}
+
+.glass-holeR {
+  background-image: url('images/overlay/a-realistic-hole-glass.png');
+  position: relative;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+} 
+
+/* 1 */
+#comp1{
+  background-image: url('images/computers/front-screen-macpro.png') ;
+  /* background-size: 840px; */
+  background-size: 420px;
+}
+
+.screen1{
+  position: relative;
+   /* top: -40px;
+  width: 678px;
+  height: 438px;  */
+  top: -20px;
+  width: 339px;
+  height: 219px;
+}
+
+
+
+ /* 2  */
+#comp2{
+  background-image: url('images/computers/front-screen-hp.png');
+  /* background-size: 730px; */
+  background-size: 365px;
+}
+
+.screen2{
+  position: relative;
+   /* top: -103px;
+  width: 515px;
+  height: 295px;  */
+  top: -51.5px;
+  width: 257.5px;
+  height: 147.5px;
+}
+
+
+/* 3 */
+#comp3{
+  background-image: url('images/computers/front-screen-acer.png');
+  /* background-size: 830px; */
+  background-size: 415px;
+}
+  
+.screen3{
+  position: relative;
+  /* top: -54px;
+  width: 589px;
+  height: 330px;
+  right: 5.5px; */
+  top: -27px;
+  width: 294.5px;
+  height: 166px;
+  right: 2.75px;
+}
+
+ /* 4  */
+ #comp4{    
+  background-image: url('images/computers/front-screen-asus.png');
+  /* background-size: 900px;
+  height: 700px; */
+  background-size: 450px;
+  height: 350px;
+}
+
+.screen4{
+  position: relative;
+  /* top: -105px;
+  width: 787px;
+  height: 450px; */
+  top: -52.5px;
+  width: 393.5px;
+  height: 225px;
+}
+
+
+  /* 5  */
+  #comp5{
+    background-image: url('images/computers/front-screen-windows.png');
+    /* background-position: center -55px; */
+    /* background-size: 850px;
+    height: 700px; */
+    background-position: center -27.5px;
+    background-size: 425px;
+    height: 350px;
+  } 
+  
+  .screen5{
+    position: relative;
+    /* top: -54px;
+    width: 754px;
+    height: 475px; */
+    top: -27px;
+    width: 377px;
+    height: 237.5px;
+  }
+
+/* 6 */
+#comp6{
+  background-image: url('images/computers/front-screen-mac.png');
+  /* background-size: 840px;
+  height: 700px; */
+  background-size: 420px;
+  height: 750px;
+}
+  
+.screen6{
+  position: relative;
+  /* top: -84px;
+  width: 774px;
+  height: 435px; */
+  top: -42px;
+  width: 387px;
+  height: 217.5px;
+}
+
+
+
+/* INFORMATION PAGE */
+
+#info{
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  /* width: 2830px; */ 
+  /* height: 1562px; */
+  /* width: 1415px; */
+  /* height: 781px; */
+  width: 98vw;
+  height: fit-content;
+  background: rgb(255, 255, 255);
+  z-index: 1;
+}
+
+
+.xButton{
+  border: 3px solid rgb(245, 178, 71);
+  text-align: center;
+  width: auto;
+  /* padding: 6px 6px 4px;
+  font-size: 1.5em; */
+  padding: 3px 3px 2px;
+  font-size: 1em;
+  background-color: rgb(195, 11, 11);
+  color: rgb(245, 178, 71);
+  /* font-size: 4em; */
+  
+}
+
+.flexIntro{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.laps{
+  
+  height:auto;
+  /* width: 540px; */
+  width: 270px;
+}
+
+.desks{
+  /* height:550px; */
+  height:275px;
+  width: auto ;
+  /* margin-top: -15px; */
+  margin-top: -7.5px;
+}
+
+.logoIntro{
+  /* margin-top: -75px; */
+  margin-top: -37.5px;
+ zoom:0.5;
+  /* width: 50% */
+ 
+}
+.sublogoIntro{
+  /* margin-top: -30px;
+  height: 75px; */
+  margin-top: -15px;
+  height: 37.5px;
+  background-color: rgb(195, 11, 11);;
+  border-radius: 50%;
+}
+
+.introOL{
+  /* margin-top: -10px; */
+  margin-top: -5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   line-height: 1.75em;
+  /* font-size: 1em; */
+  font-size: 0.75em;
+}
+
+
+.introSpan{
+  color: rgb(195, 11, 11);
+  /* border: 0.5px solid red ; */
+  border: 0.25px solid red ;
+  background-color: rgb(245, 178, 71);
+  font-size: 1.1em; 
+   padding: 2px 5px; 
+   border-radius: 50%;
+  /* font-size: 1em;
+  padding: 1px 2.5px; */
+ 
+}
+
+
+
+.emojiIntro{
+  font-size: 1.4em;
+  /* font-size: 0.7em; */
+}
+ 
+
+.hide{
+  display: none;
+}
+
+
+
+#info h2{
+  font-size: 0.75em;
+  text-align: center;
+  line-height: 1.2em; 
+}
+
+
+ /* IMAGES */
+
+
+ .pics{
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height:90%;
+  width: 90%;
+ 
+}
+
+/* ---HIT 14(3) */
+/* 1 */
+.bootsImg{
+  background-image: url('images/hit/bootstrap-2-transparent.png');
+}
+/* 2 */
+.cssImg{
+  background-image: url('images/hit/css3-logo-transparent.png');
+}
+/* 3 */
+.curlyImg{
+  background-image: url('images/hit/curly-braces.png');
+}
+
+/* 4 */
+.gitImg{
+  background-image: url('images/hit/github-octacat.png');
+}
+
+/* 5 */
+.hTagImg{
+  background-image: url('images/hit/html-tag.png');
+}
+/* 6 */
+.htmlImg{
+  background-image: url('images/hit/html5-transparent.png');
+}
+/* 7 */
+.brokenImg{
+  background-image: url('images/hit/image-broken.png');
+}
+/* 8 */
+.jasmineImg{
+  background-image: url('images/hit/jasmine-logo-transparent.png');
+}
+/* 9 */
+.jsImg{
+  background-image: url('images/hit/javascript-icon.png');
+}
+/* 10 */
+.canvasImg{
+  background-image: url('images/hit/logo-canvas.png');
+}
+/* 11 */
+.wheelImg{
+  background-image: url('images/hit/macWheelDeath.gif');
+}
+/* 12 */
+.termImg{
+  background-image: url('images/hit/terminal.png');
+}
+
+/* ----- see which better--- */
+
+/* 13 */
+.collBImg{
+  background-image: url('images/hit/canvasCollB.png');
+}
+/* ~~or ~~*/
+
+/* 14 */
+.collAllImg{
+  background-image: url('images/hit/canvasCollAll.png');
+}
+
+
+
+
+
+/* ----NO-HIT  9 ------*/
+/* 1 */
+.hiredImg{
+  background-image: url('images/nohit/you-hired.png');
+}
+/* 2 */
+.moneyImg{
+  background-image: url('images/nohit/computer-money.png');
+}
+/* 3 */
+.kittyImg{
+  background-image: url('images/nohit/cute-kittiepng.png');
+}
+
+/* 4 */
+.puppyImg{
+  background-image: url('images/nohit/cute-puppy.png');
+}
+
+/* 5 */
+.ofMonthImg{
+  background-image: url('images/nohit/employee-of-the-month.png');
+}
+
+/* 6 */
+.gradImg{
+  background-image: url('images/nohit/graduation-day.png'); 
+}
+
+/* 7 */
+.hiringImg{
+  background-image: url('images/nohit/hire-recruitment.png');
+}
+
+/* 8 */
+.beerImg{
+  background-image: url('images/nohit/ih-beer-mug.png');
+}
+
+/* 9 */
+.kegImg{
+  background-image: url('images/nohit/ih-kegerator.png');
+ 
+}
+
+
+ 
+
+
+
